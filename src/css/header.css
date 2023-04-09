@@ -1,0 +1,36 @@
+*{
+background: transparent;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background:transparent;
+    background-color: #9df9ef;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideicons{
+    margin-right: 100px;
+    justify-content:space-between;
+    
+}
+
+.sideicons > span {
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.boating{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+

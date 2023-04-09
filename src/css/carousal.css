@@ -1,0 +1,9 @@
+
+.carousel_div{
+    border: 1px solid red;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
