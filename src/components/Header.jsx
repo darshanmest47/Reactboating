@@ -6,7 +6,10 @@ import PinDropIcon from '@mui/icons-material/PinDrop';
 export const Header = () => {
   return (
     <div className='header'>
-        <span title='boating' className='boating'><SailingIcon className='sailicon' fontSize='large'/></span> 
+        <div title='boating' className='welcome to charvik boating'>
+          <SailingIcon className='sailicon' fontSize='large'/>
+          <span id="boat_title">Charvik-boating</span>
+          </div> 
         <div className='sideicons'>   
             <span title='aboutus'><InfoIcon className='abouticon' fontSize='large'/></span>
             <span title='reachus'><PinDropIcon className='reachicon' fontSize='large'/></span>
