@@ -2,8 +2,14 @@
 .carousel_div{
     border: 1px solid red;
     text-align: center;
-    width: 95%;
+    width: 75%;
     height: auto;
     margin: auto;
     padding: auto;
+    margin-top: 80px;
+}
+
+#carousel_img{
+    height: 500px;
+    width: 500px;
 }

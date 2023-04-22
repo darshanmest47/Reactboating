@@ -1,12 +1,15 @@
 
 import Header from './components/Header';
-import Carousel from './components/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carusal from './components/Carusal';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Carousel/>
+      <Carusal/>
+
 
     </div>
   );

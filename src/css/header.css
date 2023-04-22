@@ -9,11 +9,20 @@ background: transparent;
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    background-image:  url(https://www.backpacksters.com/wp-content/uploads/2020/07/India-Karnataka-Honnavar-Apsarakonda-Falls-2-sRGB.jpg);;
+    /* animation-name: boattitle;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+    background-repeat: no-repeat;
+    animation-delay: 5S;
+    animation-fill-mode: both; */
+    
 }
 
 .sideicons{
     margin-right: 100px;
     justify-content:space-between;
+    padding: 20px;
     
 }
 
@@ -24,6 +33,38 @@ background: transparent;
 
 .boating{
     margin-left: 50px;
+    padding: 20px;
+}
+
+.sailicon{
+    color: aliceblue;
+    size-adjust: 100px;
+}
+
+.abouticon{
+    color: aliceblue;
+
+}
+
+.reachicon{
+    color: aliceblue;
+
+}
+
+#boat_title{
+    font-family: Brush Script MT;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 10px;
+    
+    
+}
+
+
+@keyframes boattitle{
+    from {
+        background:url(https://www.backpacksters.com/wp-content/uploads/2020/07/India-Karnataka-Honnavar-Apsarakonda-Falls-2-sRGB.jpg);}
+    to{ background:url(https://img.trvcdn.net/https://media.tacdn.com/media/attractions-splice-spp-720x480/0d/0a/08/58.jpg?imgeng=m_box/w_1418/h_946)}
 }
 
 
