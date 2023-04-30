@@ -1,6 +1,5 @@
 
 .carousel_div{
-    border: 1px solid red;
     text-align: center;
     width: 75%;
     height: auto;
@@ -10,6 +9,6 @@
 }
 
 #carousel_img{
-    height: 500px;
+    height: 600px;
     width: 500px;
 }

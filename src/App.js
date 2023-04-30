@@ -2,6 +2,7 @@
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carusal from './components/Carusal';
+import NearAndReach from './components/NearAndReach';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header/>
       <Carusal/>
+      <NearAndReach/>
 
 
     </div>

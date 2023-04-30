@@ -12,7 +12,9 @@ export const Header = () => {
           </div> 
         <div className='sideicons'>   
             <span title='aboutus'><InfoIcon className='abouticon' fontSize='large'/></span>
+            <a href="#maps">
             <span title='reachus'><PinDropIcon className='reachicon' fontSize='large'/></span>
+            </a>
         </div>
      
     
