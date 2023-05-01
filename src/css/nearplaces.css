@@ -1,5 +1,29 @@
 .nearplaces__div{
     border: 1px solid blue;
-    flex:0.45;
+    flex:0.65;
     margin: 30px 50px;
+    height: 470px;
 }
+
+.carasoul_img{
+    height: 470px;
+    opacity: 0.9;
+}
+
+.img_lnk{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* .title__div > h2{
+    color: black;
+}
+
+.title__div > i{
+    color: black;
+}
+
+.title__div > a{
+    color: black;
+} */

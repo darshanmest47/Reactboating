@@ -1,11 +1,41 @@
 import React from 'react'
 import '../css/nearplaces.css'
+import imgs from './imgs'
+import Carousel from 'react-bootstrap/Carousel';
+
+
+
+
 export const Nearplaces = () => {
   return (
     <div className="nearplaces__div">
+     <div className="carousal__div">
 
-     <iframe src="https://www.google.com/maps/search/homestay/@14.2787646,74.4504167,15z/data=!3m1!4b1!4m8!2m7!3m6!1shomestay!2sHonnavar+Charvik+boating,+Taribagil,+Church+Rd,+Honnavar,+Karnataka+581334!3s0x3bbc3b34a1ac201b:0x6d6049048cc61187!4m2!1d74.462755!2d14.2787337?hl=en&embed?pb=!1m18!1m12!1m3!1d3866.562140547615!2d74.46018007427685!3d14.27873888487737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc3b34a1ac201b%3A0x6d6049048cc61187!2sHonnavar%20Charvik%20boating!5e0!3m2!1sen!2sin!4v1682836868750!5m2!1sen!2sin" frameborder="0"></iframe>
+     <Carousel slide={false}>
+      {imgs.map((item)=>(
+      <Carousel.Item key={item.image}>
+        <img
+          className="d-block w-100 carasoul_img"
+          src={item.image.val}
+          alt=""
+        />
+        <Carousel.Caption>
+          <div className="title__div">
+          <h2>{item.image.title}</h2>
+          <i>{item.desc}</i>
+          <br/>
+          <a className='img_lnk' href={item.url} target='_blank'>Visit here</a>
+          </div>
+     
+        </Carousel.Caption>
+      </Carousel.Item>
+      ))}
+    </Carousel>
+     </div>
 
+
+
+     
     </div>
   )
 }
